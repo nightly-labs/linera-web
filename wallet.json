@@ -1,0 +1,87 @@
+{
+  "chains": {
+    "673ce04da4b8ed773ee7cd5828a2083775bea4130498b847c5b34b2ed913b07f": {
+      "chain_id": "673ce04da4b8ed773ee7cd5828a2083775bea4130498b847c5b34b2ed913b07f",
+      "key_pair": "a25d1f719cf9f6fa6090f4f1afa405c9e1bc07e60911ca9f2479e3e65bae0ac8",
+      "block_hash": null,
+      "timestamp": 1739271625458744,
+      "next_block_height": 0,
+      "pending_block": null,
+      "pending_blobs": {}
+    },
+    "69705f85ac4c9fef6c02b4d83426aaaf05154c645ec1c61665f8e450f0468bc0": {
+      "chain_id": "69705f85ac4c9fef6c02b4d83426aaaf05154c645ec1c61665f8e450f0468bc0",
+      "key_pair": "e8ad86701ed6d3da05f00ee626c7640a7c778b7bc5108b6f3594c951fd06c0ee",
+      "block_hash": null,
+      "timestamp": 1739271625458744,
+      "next_block_height": 0,
+      "pending_block": null,
+      "pending_blobs": {}
+    },
+    "e476187f6ddfeb9d588c7b45d3df334d5501d6499b3f9ad5595cae86cce16a65": {
+      "chain_id": "e476187f6ddfeb9d588c7b45d3df334d5501d6499b3f9ad5595cae86cce16a65",
+      "key_pair": "8bba5accee887f030857f3077d4d68a1bf039b652f2dde42bd84d08960ae255c",
+      "block_hash": "a055793bd82b7e3a6b7c3b3ab803fc43d2749860dee3762882214e988619fe43",
+      "timestamp": 1739271640683339,
+      "next_block_height": 2,
+      "pending_block": null,
+      "pending_blobs": {}
+    }
+  },
+  "unassigned_key_pairs": {},
+  "default": "e476187f6ddfeb9d588c7b45d3df334d5501d6499b3f9ad5595cae86cce16a65",
+  "genesis_config": {
+    "committee": {
+      "validators": [
+        {
+          "name": "bc0b56d7d74297311091e21d556b04559675b16e23fb1be267d84b83bb6ba74f",
+          "network": {
+            "protocol": {
+              "Grpc": "ClearText"
+            },
+            "host": "localhost",
+            "port": 9000
+          }
+        }
+      ]
+    },
+    "admin_id": "e476187f6ddfeb9d588c7b45d3df334d5501d6499b3f9ad5595cae86cce16a65",
+    "timestamp": 1739271625458744,
+    "chains": [
+      [
+        "0ed2268c2816b9088ef2407b9f2a5d1da18da464a6dbe92bd240ed172e4d20f3",
+        "1000000."
+      ],
+      [
+        "c871c8c169570725c88e6f76cdf15df16e7332e3765c8c30413d10da56c86a0d",
+        "1000000."
+      ],
+      [
+        "c350f01c375e7e853bb13232714e82baae0ea8d5f3926b093b314837235bab30",
+        "1000000."
+      ]
+    ],
+    "policy": {
+      "block": "0.",
+      "fuel_unit": "0.",
+      "read_operation": "0.",
+      "write_operation": "0.",
+      "byte_read": "0.",
+      "byte_written": "0.",
+      "byte_stored": "0.",
+      "operation": "0.",
+      "operation_byte": "0.",
+      "message": "0.",
+      "message_byte": "0.",
+      "maximum_fuel_per_block": 18446744073709551615,
+      "maximum_executed_block_size": 18446744073709551615,
+      "maximum_bytecode_size": 18446744073709551615,
+      "maximum_blob_size": 18446744073709551615,
+      "maximum_block_proposal_size": 18446744073709551615,
+      "maximum_bytes_read_per_block": 18446744073709551615,
+      "maximum_bytes_written_per_block": 18446744073709551615
+    },
+    "network_name": "linera-2025-02-11T11:00:25"
+  },
+  "testing_prng_seed": null
+}
